@@ -1,0 +1,32 @@
+.toDoContainer{
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    font-size: 23px;
+    border-bottom: 1px solid #a8a1a1;
+}
+
+.checkBtn{
+    cursor: pointer;
+    color: rgb(135, 141, 139);
+    font-size: 30px;
+}
+
+.deleteBtn{
+    color: rgb(135, 141, 139);
+    cursor: pointer;
+    font-size: 30px;
+    opacity: 0;
+}
+
+.toDoContainer:hover .deleteBtn{
+    opacity: 1;
+    transition: opacity 0.1s ease-in;
+}
+
+
+.toDoTextDone{
+    text-decoration: line-through;
+}

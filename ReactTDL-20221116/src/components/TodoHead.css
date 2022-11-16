@@ -1,0 +1,25 @@
+.toDoHeadContainer{
+    margin: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.toDoHeadContainer p{
+    color: rgb(93, 93, 88);
+    text-align: center;
+}
+
+.toDo-left{
+    margin-top: 20px;
+    width: 100%;
+    padding-bottom: 20px;
+
+}
+
+.toDo-left p{
+    margin: 0;
+    font-weight: bold;
+    color: rgb(46, 49, 46);
+}

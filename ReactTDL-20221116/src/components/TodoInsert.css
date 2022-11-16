@@ -1,0 +1,36 @@
+.toDoInsertContainer{
+    position: absolute;
+    background-color: rgb(235, 231, 231);
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    z-index: -100;
+
+}
+
+.toDoInsertContainer.show{
+    animation: opacity 0.2s ease-in;
+    z-index: -100;
+}
+
+.insertInput {
+    padding: 15px;
+    width: 300px;
+    border: none;
+    text-align: center;
+    border-radius: 15px;
+    margin: 80px;
+    z-index: -10;
+}
+
+.insertInput:focus{
+    outline: none;
+}
+
+@keyframes opacity {
+    from{
+        opacity: 0;
+    } to{
+        opacity: 1;
+    }
+}

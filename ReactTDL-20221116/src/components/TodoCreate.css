@@ -1,0 +1,44 @@
+
+.creatBtn {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(233, 153, 155);
+    color: #fff;
+    font-size: 60px;
+    animation: rotate2 0.2s linear;
+    z-index: 100;
+    position: fixed;
+    bottom: 0;
+}
+
+
+.creatBtn.change{
+
+    background: rgb(235, 139, 140);
+    animation: rotate 0.2s linear;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(45deg);
+    }
+}
+
+@keyframes rotate2{
+    from{
+        transform: rotate(45deg);
+    }
+
+    to{
+        transform: rotate((0deg));
+    }
+}
