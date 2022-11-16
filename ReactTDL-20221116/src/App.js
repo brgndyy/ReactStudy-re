@@ -39,7 +39,7 @@ function App() {
     copyToDos.unshift({ id: generateID(), text: todos, checked: false });
 
     setTodo(copyToDos);
-    console.log(todo);
+    
   };
 
   return (
